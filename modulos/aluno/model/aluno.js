@@ -10,47 +10,47 @@ module.exports = (sequelize, DataTypes) => {
         },
         candidato: {
             type: DataTypes.STRING(20),
-            required: false,
+            allowNull: false,
             field: 'candidato'
         },
         curso: {
             type: DataTypes.STRING(20),
-            required: true,
+            allowNull: false,
             field: 'curso'
         },
         turno: {
             type: DataTypes.STRING(20),
-            required: true,
+            allowNull: false,
             field: 'turno'
         },
         curriculo: {
             type: DataTypes.STRING(20),
-            required: true,
+            allowNull: false,
             field: 'curriculo'
         },
         serie: {
             type: DataTypes.INTEGER,
-            required: true,
+            allowNull: false,
             field: 'serie'
         },
         nome: {
             type: DataTypes.STRING(100),
-            required: true,
+            allowNull: false,
             field: 'nome_compl'
         },
         tipo_ingresso: {
             type: DataTypes.STRING(20),
-            required: true,
+            allowNull: false,
             field: 'tipo_ingresso'
         },
         ano_ingresso: {
             type: DataTypes.INTEGER,
-            required: true,
+            allowNull: false,
             field: 'ano_ingresso'
         },
         sem_ingresso: {
             type: DataTypes.INTEGER,
-            required: true,
+            allowNull: false,
             field: 'sem_ingresso'
         }
     }, {
