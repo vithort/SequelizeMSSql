@@ -1,0 +1,17 @@
+{
+    "development": {
+        "dialect": "dialect"
+        ,"port": "port"
+        ,"host": "host"
+        ,"database": "database"
+        ,"username": "user"
+        ,"password": "pass"
+        ,"logging": false
+        ,"pool": {
+            "max": 5,
+            "min": 0,
+            "acquire": 30000,
+            "idle": 10000
+        }
+    }
+}
