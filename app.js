@@ -16,3 +16,4 @@ aluno.init(app)
 //produto.init(app)
 
 module.exports = app
+
